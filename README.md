@@ -61,22 +61,30 @@ write a programme to create robots
 
 
 
-example output of existing Android:
+### example output of existing Android:
 
-model : MK3
-serial number : 1098904 (randomly generated and unique)
-brain : 3.5GHZ
-mobility : Legs
-vision : Full Colour
-arms : articulated fingers
-media center : meridian
-Power Plant : Hydrogen
+        model : MK3
 
-randomly create a mix of existing inventory
+        serial number : 1098904 (randomly generated and unique)
+
+        brain : 3.5GHZ
+
+        mobility : Legs
+
+        vision : Full Colour
+
+        arms : articulated fingers
+
+        media center : meridian
+
+        Power Plant : Hydrogen
+
+### randomly create a mix of existing inventory
+
 use these products to gather parts for the new range
 you must state which existing Android donated each part, no more than 2 parts from the same Android.
 
-example output of new product
+### example output of new product
 
 Model : Fred the Friendlybot
 SerialNum: 1234567(randomly generated and unique)
@@ -87,30 +95,30 @@ Arms: grippers (MK1 :serialNum : 2345354)
 Media Center : Meridian (MK2 : serialNum : 1239055)
 Power Plant : Plasma (MK5 : serialNum : 3542277)
 
-create 400 of the new line of Androids (random mix of models)
+### create 400 of the new line of Androids (random mix of models)
 
 
 
-You must provide a way for a user to search the new and donor inventory:
-A user can search for and view:
-All available models of a particular type. (eg. View all Betty the Busibot models)
-One model of a particular type (eg. Single Andy the Android)
-Total counts of available types (eg how many Andy, how many Betty…etc.)
-A model that donated a particular part (ie. output of donor model and part donated and receiving model)
+### You must provide a way for a user to search the new and donor inventory:
+####A user can search for and view:
+1. All available models of a particular type. (eg. View all Betty the Busibot models)
+1. One model of a particular type (eg. Single Andy the Android)
+1. Total counts of available types (eg how many Andy, how many Betty…etc.)
+1. A model that donated a particular part (ie. output of donor model and part donated and receiving model)
 
-You must design algorithms to generate the test data.
-You must design algorithms to search the test data.
-You must design algorithms to display the test data.
-Your algorithm design must take into account the space (data structure) and time required for them to run (Big O) the decisions taken on this are to be explained in your documentation.
+1. You must design algorithms to generate the test data.
+1. You must design algorithms to search the test data.
+1. You must design algorithms to display the test data.
+1. Your algorithm design must take into account the space (data structure) and time required for them to run (Big O) the decisions taken on this are to be explained in your documentation.
 
-Your submission must include:
-Design document – analysis, class diagram, reasoning behind your design choices.
-Personal report – document detailing your thoughts on the design and a reflection on the process (problems / what you would do differently next time). This document saved as :  your name_your student number. 
-Netbeans project folder – working program (including dependencies if any)
+### Your submission must include:
+1. Design document – analysis, class diagram, reasoning behind your design choices.
+1. Personal report – document detailing your thoughts on the design and a reflection on the process (problems / what you would do differently next time). This document saved as :  your name_your student number. 
+1. Netbeans project folder – working program (including dependencies if any)
 
-One submission file  – include all material in one zip file to be uploaded to moodle.
+### One submission file  – include all material in one zip file to be uploaded to moodle.
 
-Notes : (program must run, no debugging will be attempted)
+### Notes : (program must run, no debugging will be attempted)
 Anything other than a Netbeans project will not be graded
 Along with your report / documentation you must only submit a netbeans project folder; 
 all submitted materials should be compressed into a folder named after a student and student number :eg first name_second name_studentNo.zip.
@@ -119,11 +127,11 @@ API documentation can be generated from within netbeans (uses comments on your c
 Requirements gathering and analysis (part of design doc): 
 This needs to be a detailed account of the functions of the program (step by step walkthrough with a typical user) and the reasoning behind your design choices (classes, inheritance, data structures algorithmic design etc.).
 
-Notes:
-Marking scheme summary
-Object Oriented design	0 – 10 marks
-Algorithmic design	0 – 40 marks
-Requirements gathering / analysis report	0 – 10 marks
-Program functionality / fit for purpose	0 – 40 marks
-Total	100%
+
+### Marking scheme summary
+1. Object Oriented design	0 – 10 marks
+1. Algorithmic design	0 – 40 marks
+1. Requirements gathering / analysis report	0 – 10 marks
+1. Program functionality / fit for purpose	0 – 40 marks
+1. Total	100%
 
