@@ -86,14 +86,21 @@ you must state which existing Android donated each part, no more than 2 parts fr
 
 ### example output of new product
 
-Model : Fred the Friendlybot
-SerialNum: 1234567(randomly generated and unique)
-Brain: 2.5GHZ (MK1 :serialNum : 2345354)
-Mobility: Caterpillar Track (MK3 :serialNum :5687935)
-Vision : Night Vision (MK5 : serialNum : 0980794)
-Arms: grippers (MK1 :serialNum : 2345354)
-Media Center : Meridian (MK2 : serialNum : 1239055)
-Power Plant : Plasma (MK5 : serialNum : 3542277)
+        Model : Fred the Friendlybot
+
+        SerialNum: 1234567(randomly generated and unique)
+        
+        Brain: 2.5GHZ (MK1 :serialNum : 2345354)
+        
+        Mobility: Caterpillar Track (MK3 :serialNum :5687935)
+        
+        Vision : Night Vision (MK5 : serialNum : 0980794)
+        
+        Arms: grippers (MK1 :serialNum : 2345354)
+        
+        Media Center : Meridian (MK2 : serialNum : 1239055)
+        
+        Power Plant : Plasma (MK5 : serialNum : 3542277)
 
 ### create 400 of the new line of Androids (random mix of models)
 
